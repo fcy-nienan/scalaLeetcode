@@ -12,10 +12,11 @@ object linkMethod{
   }
   def main(args: Array[String]): Unit = {
     import implicitParam._
-    var randomList=random(1000,10000);
+    val randomList=random(10,100)
     val node = create(randomList)
     disNode(node)
-    disNode(findMidRecursive(node,node))
+    val sortedNode=insertionSortList(node)
+    disNode(sortedNode)
   }
   def disNode(x:ListNode)(implicit tt:List[Int]): Unit ={
     if (x==null){
@@ -37,11 +38,11 @@ object linkMethod{
     var p=0
     var s1=l1
     var s2=l2
-    var res:ListNode=new ListNode(0,null)
+    val res:ListNode=new ListNode(0,null)
     var cur=res
     while(s1!=null||s2!=null){
-      var x=if (s1==null)0 else s1.x
-      var y=if(s2==null)0 else s2.x
+      val x=if (s1==null)0 else s1.x
+      val y=if(s2==null)0 else s2.x
       cur.next=new ListNode((x+y+p)%10,null)
       p=(x+y+p)/10
       if(s1!=null)s1=s1.next
@@ -54,17 +55,17 @@ object linkMethod{
   def addTwoNumbers2(l1:ListNode,l2:ListNode):ListNode={
     def calculate(l1:ListNode,l2:ListNode,carryOver:Option[Int]):ListNode={
       if(l1==null&&l2==null&&carryOver.isEmpty)return null
-      var sum=(if(l1==null)0 else l1.x)+(if (l2==null)0 else l2.x)+carryOver.getOrElse(0)
-      var (p,add)={
+      val sum=(if(l1==null)0 else l1.x)+(if (l2==null)0 else l2.x)+carryOver.getOrElse(0)
+      val (p,add)={
         if (sum>9) {
           (Some((sum / 10)), (sum % 10))
         }else{
           (None,(sum))
         }
       }
-      var x=new ListNode(add);
-      var n1=if(l1==null)null else l1.next
-      var n2=if(l2==null)null else l2.next
+      val x=new ListNode(add);
+      val n1=if(l1==null)null else l1.next
+      val n2=if(l2==null)null else l2.next
       x.next=calculate(n1,n2,p)
       return x;
     }
@@ -97,7 +98,6 @@ object linkMethod{
 /*反转链表
   输入: 1->2->3->4->5->NULL, m = 2, n = 4
   输出: 1->4->3->2->5->NULL*/
-  //1->3->2->4->5->null
   def reverseBetween(head: ListNode, m: Int, n: Int): ListNode = {
     def getNode(x:Int,head:ListNode):(ListNode)={
       var p:ListNode=new ListNode(0)
@@ -116,7 +116,7 @@ object linkMethod{
        Breaks.breakable{
          while(dis>0){
            if(p.next==null)Breaks.break
-           var q=p.next
+           val q=p.next
            p.next=q.next
            q.next=prev.next
            prev.next=q
@@ -124,9 +124,6 @@ object linkMethod{
          }
        }
     if(m==1)prev.next else head
-  }
-  def sortList(head: ListNode): ListNode = {
-      head
   }
   def mergeSortRecursive(head:ListNode):ListNode={
     val tuple = halfLink(head)
@@ -140,69 +137,45 @@ object linkMethod{
     }
   }
   def mergeSort(head:ListNode):ListNode={
-    val stack=new util.Stack[ListNode]()
     var cur=head;
-    var dummy=new ListNode(0,head)
-    var p=dummy;
-    stack.push(cur)
-    while(true){
-      val node = stack.pop()
-      val tuple=halfLink(node)
-      if(tuple._1!=tuple._2){
-        stack.push(tuple._1);
-        stack.push(tuple._2);
-      }else{
-        p.next=tuple._1;
+    val dummy=new ListNode(0,head)
+    var p=dummy
+    val len=head.length
+    var size=1
+    while(size<len){
+      cur=dummy.next
+      p=dummy
+      while(cur!=null){
+        val left=cur
+        val right=left.drop(size)
+        cur=if(right==null)null else right.drop(size)
+        p.next=merge(left,right)
+        while(p.next!=null){
+          p=p.next
+        }
       }
+      size=size<<1
     }
-    for(i<-0 to 10){
-      val tuple=halfLink(cur)
-      if(tuple._1!=tuple._2){
-        stack.push(tuple._1);
-        stack.push(tuple._2);
-      }else{
-
-      }
-    }
-  }
-  def drop(n:Int,head:ListNode):ListNode={
-    var i=n-1
-    if(i<0)return head
-    var p=head
-    while(i>0){
-      if(p==null)return null
-      p=p.next
-      i=i-1
-    }
-    p.next
+    dummy.next
   }
   def halfLink(head:ListNode):(ListNode,ListNode)={
-    var dummy=new ListNode(0,head)
+    val dummy=new ListNode(0,head)
     var faster=head
     var slow=dummy
     while(faster!=null&&faster.next!=null){
       slow=slow.next
       faster=faster.next.next
     }
-    var first=dummy.next;
-    var next=slow.next
+    val first=dummy.next
+    val next=slow.next
     slow.next=null
     (first,next)
-  }
-  def length(head:ListNode):Int={
-    var len=0
-    var p=head
-    while(p!=null){
-      len=len+1
-      p=p.next
-    }
-    len
   }
   def merge(l1:ListNode,l2:ListNode):ListNode={
     var p1=l1;
     var p2=l2;
     var p3=new ListNode(-1);
-    var p4=p3;
+    val p4=p3;
     while(p1!=null&&p2!=null){
       if(p1.x>p2.x){
         p3.next=p2
@@ -230,5 +203,42 @@ object linkMethod{
   def findMidRecursive(faster:ListNode,slower:ListNode):ListNode={
     if(faster==null||faster.next==null||faster.next.next==null)slower
     else findMidRecursive(faster.next.next,slower.next)
+  }
+  def detectCycle(head: ListNode): ListNode = {
+    var faster=head
+    var slower=head
+    do{
+      if(faster==null||faster.next==null)return null
+      faster=faster.next.next
+      slower=slower.next
+    }while(faster!=slower)
+    var p=head
+    while(p!=faster){
+      p=p.next
+      faster=faster.next
+    }
+    p
+  }
+  //4->3->2->1->0
+  def insertionSortList(head: ListNode): ListNode = {
+    if(head==null||head.next==null)return head
+    val prev=new ListNode(-1,head)
+    var cur=prev.next
+    while(cur!=null&&cur.next!=null){
+      var p=prev
+      while(cur.next.x>p.next.x){
+        p=p.next
+      }
+      if(p.next!=cur.next) {
+        val right = p.next
+        val inserted=cur.next
+        cur.next=inserted.next
+        p.next=inserted
+        inserted.next=right
+      }else{
+        cur=cur.next
+      }
+    }
+    prev.next
   }
 }
