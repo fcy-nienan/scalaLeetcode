@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="634673d8-0819-48ea-9595-c1200d9a1503" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/implicitParam$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$reverseBetween$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/implicitParam$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/implicitParam$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$reverseBetween$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$reverseBetween$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,48 +25,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkUtil.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="244" column="13" lean-forward="true" selection-start-line="224" selection-start-column="4" selection-end-line="244" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-                <element signature="e#161#272#0" />
-                <element signature="e#480#649#0" />
-                <element signature="e#652#787#0" />
-                <element signature="e#788#864#0" />
-                <element signature="e#788#1328#0" />
-                <element signature="e#1331#1949#0" />
-                <element signature="e#1952#2695#0" />
-                <element signature="e#2696#2770#0" />
-                <element signature="e#2696#3418#0" />
-                <element signature="e#3481#3777#0" />
-                <element signature="e#3763#4218#0" />
-                <element signature="e#4373#4686#0" />
-                <element signature="e#4821#5163#0" />
-                <element signature="e#5166#5462#0" />
-                <element signature="e#5534#5611#0" />
-                <element signature="e#5417#5745#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ListNode.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="-1580">
-                <caret line="17" selection-start-line="17" selection-end-line="17" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -102,7 +64,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1377" />
     <option name="height" value="704" />
@@ -113,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +92,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +104,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -212,24 +174,23 @@
     <option name="totallyTimeSpent" value="45634000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20090635" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13293052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="752" y="6" width="630" height="408" id="Run" order="2" type="FLOATING" visible="true" weight="0.24355301" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" x="885" y="245" width="630" height="266" id="Run" order="2" type="FLOATING" visible="true" weight="0.24355301" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37235773" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1779053" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.23816356" />
@@ -263,16 +224,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkList.scala" />
-    <entry file="file://$PROJECT_DIR$/src/test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1580">
-            <caret line="17" selection-start-line="17" selection-end-line="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Language/Scala/lib/scala-library.jar!/scala/collection/TraversableLike.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -289,33 +240,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ListNode.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="340">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="244" column="13" lean-forward="true" selection-start-line="224" selection-start-column="4" selection-end-line="244" selection-end-column="13" />
+        <state relative-caret-position="200">
+          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
-            <element signature="e#161#272#0" />
-            <element signature="e#480#649#0" />
-            <element signature="e#652#787#0" />
-            <element signature="e#788#864#0" />
-            <element signature="e#788#1328#0" />
-            <element signature="e#1331#1949#0" />
-            <element signature="e#1952#2695#0" />
-            <element signature="e#2696#2770#0" />
-            <element signature="e#2696#3418#0" />
-            <element signature="e#3481#3777#0" />
-            <element signature="e#3763#4218#0" />
-            <element signature="e#4373#4686#0" />
-            <element signature="e#4821#5163#0" />
-            <element signature="e#5166#5462#0" />
-            <element signature="e#5534#5611#0" />
-            <element signature="e#5417#5745#0" />
           </folding>
         </state>
       </provider>

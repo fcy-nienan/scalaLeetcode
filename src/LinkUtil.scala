@@ -1,5 +1,6 @@
 import java.util
 
+import scala.collection.mutable.ListBuffer
 import scala.util.Random
 import scala.util.control.Breaks
 
@@ -13,10 +14,15 @@ object linkMethod{
   def main(args: Array[String]): Unit = {
     import implicitParam._
     val randomList=random(10,100)
-    val node = create(randomList)
-    disNode(node)
-    val sortedNode=insertionSortList(node)
-    disNode(sortedNode)
+    val list=ListBuffer[ListNode]()
+    for(i<-0 to 0){
+      val node=create(randomList)
+      list+=node
+    }
+    for(i<-0 to 0){
+      disNode(list(i))
+    }
+    disNode(mergeKLists(list.toArray))
   }
   def disNode(x:ListNode)(implicit tt:List[Int]): Unit ={
     if (x==null){
@@ -240,5 +246,15 @@ object linkMethod{
       }
     }
     prev.next
+  }
+  def mergeKLists(lists: Array[ListNode]): ListNode = {
+    mergeKRecursive(lists,0,lists.length-1)
+  }
+  def mergeKRecursive(lists:Array[ListNode],left:Int,right:Int):ListNode={
+    if(left==right)return lists(left)
+    val mid=(left+right)/2
+    val mergedLeft=mergeKRecursive(lists,left,mid)
+    val mergedRight=mergeKRecursive(lists,mid+1,right)
+    merge(mergedLeft,mergedRight)
   }
 }
