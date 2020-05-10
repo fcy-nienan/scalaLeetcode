@@ -104,33 +104,33 @@ object linkMethod{
 /*反转链表
   输入: 1->2->3->4->5->NULL, m = 2, n = 4
   输出: 1->4->3->2->5->NULL*/
-  def reverseBetween(head: ListNode, m: Int, n: Int): ListNode = {
-    def getNode(x:Int,head:ListNode):(ListNode)={
-      var p:ListNode=new ListNode(0)
-      p.next=head
-      var index=x
-      var q=p
-      while(index>0){
-        p=p.next
-        index=index-1
-      }
-      (p)
+def reverseBetween(head: ListNode, m: Int, n: Int): ListNode = {
+  def getNode(x: Int, head: ListNode): (ListNode) = {
+    var p: ListNode = new ListNode(0)
+    p.next = head
+    var index = x
+    while (index > 0) {
+      p = p.next
+      index = index - 1
     }
-    val (prev)=getNode(m-1,head);
-    val p=prev.next
-    var dis=n-m
-       Breaks.breakable{
-         while(dis>0){
-           if(p.next==null)Breaks.break
-           val q=p.next
-           p.next=q.next
-           q.next=prev.next
-           prev.next=q
-           dis=dis-1
-         }
-       }
-    if(m==1)prev.next else head
+    (p)
   }
+
+  val (prev) = getNode(m - 1, head);
+  val p = prev.next
+  var dis = n - m
+  Breaks.breakable {
+    while (dis > 0) {
+      if (p.next == null) Breaks.break
+      val q = p.next
+      p.next = q.next
+      q.next = prev.next
+      prev.next = q
+      dis = dis - 1
+    }
+  }
+  if (m == 1) prev.next else head
+}
   def mergeSortRecursive(head:ListNode):ListNode={
     val tuple = halfLink(head)
     if (tuple._1!=tuple._2) {
