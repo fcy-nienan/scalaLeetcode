@@ -20,80 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="634673d8-0819-48ea-9595-c1200d9a1503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/InOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/addBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/maxArea.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/plusOne.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/threeSum.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Array/threeSumClosest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTracking/LetterCombinations.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTracking/Parenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/BackTracking/SolveSuDuKu.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Join/DemoJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Join/InnerJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Join/Join.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Join/LeftJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Join/RightJoin.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Join/package.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Recursion/longestUnivaluePath.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/OperatorOverride.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/fp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/normal.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/ExtractorDemo/ExtractorDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/IODemo/SourceDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/RegexDemo/RegexDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/implicitDemo/ImplicitConversionAndParamDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/implicitDemo/ImplicitConversionDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/implicitDemo/ImplicitParamDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/implicitDemo/OtherDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ScalaAdvanced/Collection.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ScalaAdvanced/Control.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ScalaAdvanced/Curring.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ScalaAdvanced/DemoFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ScalaAdvanced/MatchPattern.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/candidatesSum.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/combine.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/minPathSum.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/nextPermutation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/permuteUnique.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/spiralOrder.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/subSets.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day1/uniquePaths.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day2/ContinueDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day2/combinationSum2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day2/divide.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Day2/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Ohter/Day2/isPalindrome.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Ohter/Day2/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Ohter/Day2/searchRange.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Ohter/Day2/threeSumClosest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Ohter/Day3/CombinationSum.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/Ohter/Day3/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/pratice/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/ListNode$$anonfun$take$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/META-INF/scalaLeetcode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/implicitParam$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/implicitParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$random$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$$anonfun$reverseBetween$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/linkMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalaLeetcode/test.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scalaLeetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scalaLeetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/Scala/scala/IODemo/SourceDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/Scala/scala/IODemo/SourceDemo.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +33,28 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode/Scala/scala/IODemo/SourceDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/LeetCode/Scala/scala/IODemo/SourceDemo.scala" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -117,9 +67,67 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1377" />
+    <option name="height" value="704" />
+  </component>
   <component name="ProjectId" id="1b1FJTKvwGiLymgqbPg6KXbsSs9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="scalaLeetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaLeetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaLeetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaLeetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaLeetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaLeetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaLeetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaLeetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaLeetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaLeetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalaLeetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalaLeetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="IODemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -147,7 +155,19 @@
       <recent name="C:\Users\80771\IdeaProjects\scalaLeetcode\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.normal">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SourceDemo">
     <configuration name="DemoJoin" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.Join.DemoJoin" />
       <module name="scalaLeetcode" />
@@ -155,9 +175,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplicitDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ImplicitDemo" />
+    <configuration name="SourceDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Scala.scala.IODemo.SourceDemo" />
       <module name="scalaLeetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.Scala.scala.IODemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -185,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SourceDemo" />
         <item itemvalue="Application.normal" />
         <item itemvalue="Application.fp" />
         <item itemvalue="Application.DemoJoin" />
         <item itemvalue="Application.linkMethod" />
-        <item itemvalue="Application.ImplicitDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +251,36 @@
     </task>
     <servers />
   </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30060422" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" x="212" y="634" width="850" height="236" id="Run" order="2" type="FLOATING" visible="true" weight="0.24355301" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4003268" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.25816995" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
@@ -233,12 +289,32 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="703" y="434" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1589092008210">
@@ -277,6 +353,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589126305339" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/LinkUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="153" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode/Scala/scala/IODemo/SourceDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" lean-forward="true" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="ideajad">
     <property name="annotate" value="false" />
